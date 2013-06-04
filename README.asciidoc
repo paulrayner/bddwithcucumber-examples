@@ -2,7 +2,9 @@
 
 Will move this somewhere better once we get the examples working correctly.
 
-The `ch6-java` folder has an IntelliJ IDEA 12 Community Edition project. I am using it as a sandbox for getting the Coypu-JVM examples in chapter 6 working. When I run hello.feature (right-click and select `run Feature: hello` from the context menu):
+The `ch6-java` folder has an IntelliJ IDEA 12 Community Edition project. I am using it as a sandbox for getting the Coypu-JVM examples in chapter 6 working. I added Coypu-JVM to the project by adding the dependency in the `pom.xml` file as described at the Coypu-JVM GitHub project at https://github.com/featurist/coypu-jvm.
+
+When I run hello.feature (right-click and select `run Feature: hello` from the context menu):
 
  src/test/resources/cucumber/examples/java/ch6/hello.feature
 
